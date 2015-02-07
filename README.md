@@ -9,8 +9,8 @@ Australian National University, First Semester 2015
 
 ### General
 
-* [Course notes](https://github.com/jstac/econ-2125-8013/blob/master/course_notes.pdf?raw=true)
-* [Course outline](https://github.com/jstac/econ-2125-8013/blob/master/course_outline.pdf?raw=true)
+* [Course outline](https://github.com/jstac/econ-2125-8013/blob/master/course_outline.pdf?raw=true) -- start here or see below for an online version
+* [Course notes](https://github.com/jstac/econ-2125-8013/blob/master/course_notes.pdf?raw=true) -- covers part of the course material
 
 
 ### Lectures
