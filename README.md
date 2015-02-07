@@ -79,9 +79,7 @@ Contact hours: Monday 9:00–11:00 AM
 
 ------------| --------------------| --------------
 Lecture A:  | Wednesday 10–11 AM  | CBE BLD LT 2
-------------| --------------------| --------------
 Lecture B:  | Thursday 9–10 AM    | CBE BLD LT 2
-------------| --------------------| --------------
 
 Important: Lecture C as listed in the course timetable is *not currently
 active*. No lecture will take place outside the two listed above unless
@@ -96,20 +94,15 @@ Tutorials are on Fridays in Room TR6 of HW Arndt Building 25a
 
   ---------| -------------
   Group 1  |   12:00–13:00
-  ---------| -------------
   Group 2  |   13:00–14:00
-  ---------| -------------
   Group 3  |   14:00–15:00
-  ---------| -------------
 
 Further details will be given in the first lecture. The two tutors for
 this course are
 
   --------------| ---------------------------| -----------------------------
   Qingyin Ma    | `qingyin.ma@anu.edu.au`    | Room 1125 Copeland Building
-  --------------| ---------------------------| -----------------------------
   Guanlong Ren  | `guanlong.ren@anu.edu.au`  | Room 2018 HW Arndt Building
-  --------------| ---------------------------| -----------------------------
 
 ### Resources 
 
@@ -140,9 +133,7 @@ weighting is
 
   ----------------| ----
   Mid-term exam:  |   40
-  ----------------| ----
   Final exam:     |   60
-  ----------------| ----
 
 ECON2125 and ECON8013 students will be assessed in separate pools with
 possible variation in requirements and standards. Final grades may not
