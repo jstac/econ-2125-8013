@@ -2,6 +2,7 @@
 
 
 GitHub page for ECON2125/8013
+
 Australian National University, First Semester 2015
 
 ### Titles 
@@ -66,8 +67,11 @@ rate of progress and level of the students.
 ### Instructor 
 
 John Stachurski
+
 Office: Room 2006, HW Arndt Building 25a
+
 Email: `john.stachurski@anu.edu.au`
+
 Contact hours: Monday 9:00–11:00 AM
 
 
@@ -75,6 +79,7 @@ Contact hours: Monday 9:00–11:00 AM
 
   ------------ -------------------- --------------
   Lecture A:   Wednesday 10–11 AM   CBE BLD LT 2
+  ------------ -------------------- --------------
   Lecture B:   Thursday 9–10 AM     CBE BLD LT 2
   ------------ -------------------- --------------
 
