@@ -1,7 +1,8 @@
-
 # ECON2125/8013
 
-GitHub page for ECON2125/8013, Australian National University, First Semester 2015
+
+GitHub page for ECON2125/8013
+Australian National University, First Semester 2015
 
 ### Titles 
 
@@ -64,10 +65,11 @@ rate of progress and level of the students.
 
 ### Instructor 
 
-John Stachurski\
-Office: Room 2006, HW Arndt Building 25a\
-Email: `john.stachurski@anu.edu.au`\
+John Stachurski
+Office: Room 2006, HW Arndt Building 25a
+Email: `john.stachurski@anu.edu.au`
 Contact hours: Monday 9:00–11:00 AM
+
 
 ### Lecture Timetable 
 
@@ -81,6 +83,7 @@ active*. No lecture will take place outside the two listed above unless
 otherwise advised. (Lectures for graduate students are likely to be held
 in the C slot later in the semester. Students will be advised through
 both lectures and Wattle if and when this occurs.)
+
 
 ### Tutorials 
 
@@ -102,29 +105,25 @@ this course are
 
 ### Resources 
 
-As well as the usual Wattle course page, which students should check
-regularly for up to date information related to the course, there is
-also a GitHub page at
+As well as the usual Wattle course page, which students should check regularly
+for up to date information related to the course, this GitHub page will store
+all PDFs and other reading material related to the course.
 
-`https://github.com/jstac/econ-2125-8013`
+All of the lecture slides used through the course will be made available to
+students as PDF files. The lecture slides will be relatively comprehensive and
+self-contained, and serve as the primary source of reading material for
+students. Slides corresponding to each lecture will be made available to
+students as downloadable files on this page shortly before (best case) or
+immediately after the corresponding lecture.
 
-where all PDFs and other reading material related to the course can be
-found.
-
-All of the lecture slides used through the course will be made available
-to students as PDF files. The lecture slides will be relatively
-comprehensive and self-contained, and serve as the primary source of
-reading material for students. Slides corresponding to each lecture will
-be made available to students at the GitHub link given above shortly
-before (best case) or immediately after the corresponding lecture.
-
-On the GitHub page you will also find a PDF file called
-`course_notes.pdf`. These notes give additional background and practice
-exercises for some *but not all* topics treated in the course.
+On this page you will also find a PDF file called `course_notes.pdf`. These
+notes give additional background and practice exercises for some *but not all*
+topics treated in the course.
 
 Finally, recording of lectures will usually be made available but
 unrecorded lectures are quite likely to occur and hence the recordings
 should not be relied upon.
+
 
 ### Assessment 
 
