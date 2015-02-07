@@ -93,7 +93,7 @@ both lectures and Wattle if and when this occurs.)
 
 Tutorials are on Fridays in Room TR6 of HW Arndt Building 25a
 
-Group : Time
+Group | Time
 ---------| -------------
 Group 1  |   12:00–13:00
 Group 2  |   13:00–14:00
@@ -102,7 +102,7 @@ Group 3  |   14:00–15:00
 Further details will be given in the first lecture. The two tutors for
 this course are
 
-Name : Email | Room
+Name | Email | Room
 --------------| ---------------------------| -----------------------------
 Qingyin Ma    | `qingyin.ma@anu.edu.au`    | Room 1125 Copeland Building
 Guanlong Ren  | `guanlong.ren@anu.edu.au`  | Room 2018 HW Arndt Building
