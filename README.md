@@ -77,11 +77,11 @@ Contact hours: Monday 9:00–11:00 AM
 
 ### Lecture Timetable 
 
-  ------------| --------------------| --------------
-  Lecture A:  | Wednesday 10–11 AM  | CBE BLD LT 2
-  ------------| --------------------| --------------
-  Lecture B:  | Thursday 9–10 AM    | CBE BLD LT 2
-  ------------| --------------------| --------------
+------------| --------------------| --------------
+Lecture A:  | Wednesday 10–11 AM  | CBE BLD LT 2
+------------| --------------------| --------------
+Lecture B:  | Thursday 9–10 AM    | CBE BLD LT 2
+------------| --------------------| --------------
 
 Important: Lecture C as listed in the course timetable is *not currently
 active*. No lecture will take place outside the two listed above unless
