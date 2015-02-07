@@ -157,7 +157,7 @@ practice questions for many parts of the course.
 
 All topics are standard and plenty of useful free material can be found
 on the Internet on a case by case basis. For example,
-`math.stackexchange.com` can be very helpful. Other texts that might be
+http://math.stackexchange.com can be very helpful. Other texts that might be
 useful to understand the course material—but are *in no way
 required*—include:
 
