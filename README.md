@@ -7,10 +7,22 @@ Australian National University, First Semester 2015
 
 ## Downloads
 
-To download PDFs 
+### General
 
 * [Course notes](https://github.com/jstac/econ-2125-8013/blob/master/course_notes.pdf?raw=true)
 * [Course outline](https://github.com/jstac/econ-2125-8013/blob/master/course_outline.pdf?raw=true)
+
+
+### Lectures
+
+* Forthcoming
+
+
+### Tutorial Questions
+
+* Forthcoming
+
+
 
 
 ## General information
