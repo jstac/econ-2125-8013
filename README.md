@@ -1,16 +1,9 @@
----
-title: 'ECON2125/8013'
-...
 
-<span>**<span>Course Outline</span>**</span>
+# ECON2125/8013
 
-<span>**<span>ECON2125/8013</span>**</span>
+GitHub page for ECON2125/8013, Australian National University, First Semester 2015
 
-<span>**<span>Australian National University</span>**</span>
-
-<span>**<span>First Semester 2015</span>**</span>
-
-### Titles {#titles .unnumbered}
+### Titles 
 
 -   Mathematics A (2125)
 
@@ -18,7 +11,7 @@ title: 'ECON2125/8013'
 
 -   Mathematical Techniques in Economics I (8013)
 
-### Course Description {#course-description .unnumbered}
+### Course Description 
 
 Together with ECON2127/ECON8014, this course forms a two-semester
 sequence that introduces students to a range of foundational
@@ -33,7 +26,7 @@ econometric, statistical and financial problems. However, a number of
 other foundational topics in mathematical modeling will also be treated.
 These include linear algebra, dynamics and probability theory.
 
-### Learning Outcomes {#learning-outcomes .unnumbered}
+### Learning Outcomes 
 
 Upon a successful completion of this course, students should be able to:
 
@@ -48,7 +41,7 @@ Upon a successful completion of this course, students should be able to:
 -   Apply mathematical methods and techniques that are formulated in
     abstract settings to concrete economic applications.
 
-### List of Topics {#list-of-topics .unnumbered}
+### List of Topics 
 
 The main topics of the course will be
 
@@ -69,14 +62,14 @@ The main topics of the course will be
 Topics may vary slightly at the instructor’s discretion depending on the
 rate of progress and level of the students.
 
-### Instructor {#instructor .unnumbered}
+### Instructor 
 
 John Stachurski\
 Office: Room 2006, HW Arndt Building 25a\
 Email: `john.stachurski@anu.edu.au`\
 Contact hours: Monday 9:00–11:00 AM
 
-### Lecture Timetable {#lecture-timetable .unnumbered}
+### Lecture Timetable 
 
   ------------ -------------------- --------------
   Lecture A:   Wednesday 10–11 AM   CBE BLD LT 2
@@ -89,7 +82,7 @@ otherwise advised. (Lectures for graduate students are likely to be held
 in the C slot later in the semester. Students will be advised through
 both lectures and Wattle if and when this occurs.)
 
-### Tutorials {#tutorials .unnumbered}
+### Tutorials 
 
 Tutorials are on Fridays in Room TR6 of HW Arndt Building 25a
 
@@ -107,7 +100,7 @@ this course are
   Guanlong Ren   `guanlong.ren@anu.edu.au`   Room 2018 HW Arndt Building
   -------------- --------------------------- -----------------------------
 
-### Resources {#resources .unnumbered}
+### Resources 
 
 As well as the usual Wattle course page, which students should check
 regularly for up to date information related to the course, there is
@@ -133,7 +126,7 @@ Finally, recording of lectures will usually be made available but
 unrecorded lectures are quite likely to occur and hence the recordings
 should not be relied upon.
 
-### Assessment {#assessment .unnumbered}
+### Assessment 
 
 Assessment will consist of one mid-term exam and one final exam. The
 weighting is
@@ -149,7 +142,7 @@ be an exact sum of exam scores, due to post-processing by the university
 administration. This processing might alter the absolute value of
 individual scores but it will not affect the ranking.
 
-### Further Reading {#further-reading .unnumbered}
+### Further Reading 
 
 One recommended source of material related to the course is
 
@@ -175,11 +168,11 @@ required*—include:
 
 -   *A First Course in Optimization Theory* by Rangarajan Sundaram
 
-### Prerequisites {#prerequisites .unnumbered}
+### Prerequisites 
 
 See the ANU Programs and Courses guide
 
-### Other {#other .unnumbered}
+### Other 
 
 Please refer any administrative questions to the course administrator
 Karissa Carkeet, room 1013, HW Arndt Bulding (25a).
