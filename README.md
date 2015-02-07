@@ -5,6 +5,16 @@ GitHub page for ECON2125/8013
 
 Australian National University, First Semester 2015
 
+## Downloads
+
+* [Course notes](https://github.com/jstac/econ-2125-8013/blob/master/course_notes.pdf)
+* [Course outline](https://github.com/jstac/econ-2125-8013/blob/master/course_outline.pdf)
+
+
+## General information
+
+The information below is identical to the information in the [course outline](https://github.com/jstac/econ-2125-8013/blob/master/course_outline.pdf) and repeated only for convenience.
+
 ### Titles 
 
 -   Mathematics A (2125)
