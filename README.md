@@ -27,7 +27,7 @@ Australian National University, First Semester 2015
 
 ## General information
 
-The information below is identical to the information in the [course outline](https://github.com/jstac/econ-2125-8013/blob/master/course_outline.pdf?raw=true) and repeated only for convenience.
+The information below is identical to the information in the [course outline](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/course_outline.pdf?raw=true) and repeated only for convenience.
 
 ### Titles 
 
