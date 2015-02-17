@@ -28,8 +28,9 @@ Australian National University, First Semester 2015
 Some links that might be of use are
 
 * [math.stackexchange](http://math.stackexchange.com)  -- answer for your maths questions
-* [Martin Osborne's online notes](https://www.economics.utoronto.ca/osborne/MathTutorial/CVNF.HTM) -- optimization for economists
+* [Martin Osborne's online notes](https://www.economics.utoronto.ca/osborne/MathTutorial/index.html) -- optimization for economists
 * [quant-econ](http://quant-econ.net/) -- mix of theory and programming in Python
+
 
 
 
