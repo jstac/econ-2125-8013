@@ -15,7 +15,7 @@ Australian National University, First Semester 2015
 
 ### Lectures
 
-* Forthcoming
+* [Lecture 1](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_1.pdf?raw=true) 
 
 
 ### Tutorial Questions
@@ -23,11 +23,21 @@ Australian National University, First Semester 2015
 * Forthcoming
 
 
+## Links
+
+Some links that might be of use are
+
+* [math.stackexchange](http://math.stackexchange.com)  -- answer for your maths questions
+* [Martin Osborne's online notes](https://www.economics.utoronto.ca/osborne/MathTutorial/CVNF.HTM) -- optimization for economists
+* [quant-econ](http://quant-econ.net/) -- mix of theory and programming in Python
+
+
 
 
 ## General information
 
 The information below is identical to the information in the [course outline](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/course_outline.pdf?raw=true) and repeated only for convenience.
+
 
 ### Titles 
 
