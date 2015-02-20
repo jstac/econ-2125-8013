@@ -21,7 +21,7 @@ Australian National University, First Semester 2015
 
 ### Tutorial Questions
 
-* [Tutorial for week 2](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON8013_TQ1.pdf?raw=true)
+* Forthcoming
 
 
 ## Links
@@ -140,7 +140,7 @@ this course are
 
 Name | Email | Room
 --------------| ---------------------------| -----------------------------
-Qingyin Ma    | `qingyin.ma@anu.edu.au`    | Room 1125 Copland Building
+Qingyin Ma    | `qingyin.ma@anu.edu.au`    | Room 1125 Copeland Building
 Guanlong Ren  | `guanlong.ren@anu.edu.au`  | Room 2018 HW Arndt Building
 
 ### Resources 
