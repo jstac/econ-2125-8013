@@ -26,6 +26,7 @@ Australian National University, First Semester 2015
 * [Lecture 9](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_9.pdf?raw=true) 
 * [Lecture 10](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_10.pdf?raw=true) 
 * [Lecture 11](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_11.pdf?raw=true) 
+* [Lecture 12](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_12.pdf?raw=true) 
 
 
 
