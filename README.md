@@ -41,6 +41,7 @@ Australian National University, First Semester 2015
 * [Tutorial for week 5](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON8013_TQ4.pdf?raw=true)
 * [Tutorial for week 6](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON8013_TQ5.pdf?raw=true)
 * [Tutorial for week 8](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON8013_TQ7.pdf?raw=true)
+* [Tutorial for week 9](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON8013_TQ8.pdf?raw=true)
 
 ### Practice Questions
 
