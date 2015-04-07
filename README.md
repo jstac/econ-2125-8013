@@ -48,6 +48,8 @@ Australian National University, First Semester 2015
 * [Set 1](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/practice_qs_1.pdf?raw=true)
 * [Set 1 solutions](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/practice_qs_1_solutions.pdf?raw=true)
 
+* [Set 2](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/practice_qs_2.pdf?raw=true)
+* [Set 2 solutions](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/practice_qs_2_solutions.pdf?raw=true)
 
 ## Links
 
