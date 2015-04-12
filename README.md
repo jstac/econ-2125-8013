@@ -5,6 +5,33 @@ GitHub page for ECON2125/8013
 
 Australian National University, First Semester 2015
 
+## Announcements
+
+
+### Week 8 Lectures (Posted 13-04-2015) 
+
+Week 8 lectures (22nd and 23rd April) will proceed as normal despite the
+midterm exam.  The material discussed in those lectures will not be assessable
+in the midterm.  In addition, the material from the lecture 14 PDF on convergence
+in distribution and the Central Limit Theorem (p. 38 onwards) was not actually
+covered in the lecture because of time constraints, and as such is
+*not* considered assessable in the midterm.  It will be transferred to lecture
+15.
+
+
+### Midterm Details (Posted 13-04-2015) 
+
+As discussed in the lectures, the midterm exam details are as follows:
+
+* Date: Thursday 23rd April
+* Venue: COPG30
+* Room opens: 18:05
+* Exam commences: 18:15
+* Writing commences: 18:30
+* Exam ends: 18:30
+
+
+
 ## Downloads
 
 ### General
