@@ -28,7 +28,7 @@ As discussed in the lectures, the midterm exam details are as follows:
 * Room opens: 18:05
 * Exam commences: 18:15
 * Writing commences: 18:30
-* Exam ends: 18:30
+* Exam ends: 20:30
 
 
 
