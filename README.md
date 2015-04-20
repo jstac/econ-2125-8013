@@ -8,6 +8,15 @@ Australian National University, First Semester 2015
 ## Announcements
 
 
+### Week 8 Thursday Lecture to be Shifted (Posted 20-04-2015) 
+
+Hi all, with apologies for late notice, I've now decided to shift the
+Thursday 23rd April lecture to the next day, Friday 24th, 10am.  This is to
+let you concentrate on last minute revision for the midterm exam (on Thursday
+evening).  The location of the lecture is unchanged.
+
+
+
 ### Week 8 Lectures (Posted 13-04-2015) 
 
 Week 8 lectures (22nd and 23rd April) will proceed as normal despite the
