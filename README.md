@@ -7,6 +7,23 @@ Australian National University, First Semester 2015
 
 ## Announcements
 
+### Midterm Results and Solutions (Posted 29-04-2015) 
+
+The midterm results are up on Wattle.  Marks are out of 100.  As discussed in
+lecture 17, there has been some upward scaling up to make the mean match
+historical averages.  
+
+The midterm exam paper with solutions can be downloaded here:
+
+* [Midterm with solutions](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/midterm_with_solutions.pdf?raw=true) 
+
+Note that the solutions are only indicative --- there are usually many ways to
+tackle these problems.  In particular, any correct approach was treated as
+acceptable as long as it followed the guidelines set out at the top of the
+exam paper.  The same principle will apply to the final.
+
+
+
 
 ### Week 8 Thursday Lecture to be Shifted (Posted 20-04-2015) 
 
