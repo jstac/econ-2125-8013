@@ -1,0 +1,1202 @@
+\input{../preamb.tex}
+
+\title{ECON2125/4021/8013}
+
+\subtitle{Lecture 20}
+
+\author{John Stachurski}
+
+\date{Semester 1, 2015}
+
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+    \frametitle{Introduction}
+    
+    In this lecture we continue to study nonlinear equations
+
+    \begin{itemize}
+        \item Which problems have solutions?
+            \vspace{0.6em}
+        \item When do we have uniqueness?
+            \vspace{0.6em}
+        \item How can we compute solutions?
+            \vspace{0.6em}
+        \item How can we apply these ideas?
+    \end{itemize}
+
+            \vspace{0.6em}
+
+    We will study these problems from the perspective of fixed point theory
+
+    \begin{itemize}
+        \item An important branch of analysis
+    \end{itemize}
+
+\end{frame}
+
+
+
+
+\section{Fixed Points}
+
+\begin{frame}
+    \frametitle{Fixed Points}
+
+    Let $T \colon S \to S$ where $S \subset \RR^K$
+
+    \begin{itemize}
+        \item The function $T$ is a ``self-mapping" because it maps $S$ to $S$
+            \vspace{0.6em}
+        \item We write $T\boldx$ instead of $T(\boldx)$ below
+    \end{itemize}
+
+            \vspace{0.6em}
+
+    A point $\boldx^* \in S$ is called a \navy{fixed point} of $T$ if
+    %
+    \begin{equation*}
+        T\boldx^* = \boldx^*  
+    \end{equation*}
+
+            \vspace{0.0em}
+
+    Related to 
+    %
+    \begin{itemize}
+        \item optimization because $\boldx^*$ solves $\min_{\boldx \in
+                S}\|T\boldx - \boldx\|$
+            \vspace{0.5em}
+        \item zeros because $\boldx^*$ solves $H(\boldx) = \boldzero$ for
+            $H(\boldx) := T\boldx - \boldx$
+    \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+    
+    \Eg If $f \colon \RR \to \RR$ is the identity $f(x) = x$, then every $x
+    \in \RR$ is a fixed point
+
+    \vspace{0.6em}
+
+    \Eg If $f \colon \RR \to \RR$ is defined by $f(x) = x + 1$, then no $x
+    \in \RR$ is a fixed point
+
+    \vspace{0.6em}
+    
+    \Eg Let $f \colon [0, 1] \to [0, 1]$ be defined by 
+    %
+    \begin{equation*}
+        f(x) = 4 x (1 - x)
+    \end{equation*}
+
+    Then $x=\frac{3}{4}$ is a fixed point of $f$ because
+    %
+    \begin{equation*}
+        f
+        \left( \frac{3}{4} \right)
+        = 4 \frac{3}{4} \left( 1 - \frac{3}{4} \right)
+        = \frac{3}{4}
+    \end{equation*}
+
+
+\end{frame}
+
+
+
+
+\begin{frame}
+
+    \begin{figure}
+       \begin{center}
+        \scalebox{.4}{\includegraphics{fps.pdf}}
+        \caption{Fixed points in one dimension}
+       \end{center}
+    \end{figure}
+    
+\end{frame}
+
+
+
+%\begin{frame}
+
+    %Let $S \subset \RR^K$ and let $T \colon S \to S$
+
+    %Let $T^n := T \circ T \circ \cdots \circ T$ with $n$ compositions ($n$-th iterate)
+    
+    %\Fact If $T$ is continuous at $\boldx^* \in S$ and  $T^n \boldx \to \boldx^*$
+    %for some $\boldx \in S$, then $\boldx^*$ is a fixed point of $T$
+
+    %\vspace{1em}
+
+    %Proof:  Let $S$, $T$, $\boldx$ and $\boldx^*$ have the stated properties
+
+    %Let $\boldx_n := T^n \boldx$, so that $\boldx_n \to \boldx^*$
+
+    %Let $\boldy_n := T \boldx_n = T^{n+1} \boldx$ for all $t$
+
+    %Since $\boldy_n = T^{n+1} \boldx = \boldx_{n+1}$, we have $\boldy_n \to \boldx^*$
+
+    %On the other hand, 
+    %since $T$ is continuous at $\boldx^*$ and $\boldx_n \to \boldx^*$ we have
+    %$\boldy_n = T \boldx_n \to T \boldx^* = \boldx^*$
+
+    %Since sequences have at most one limit, $\boldx^* = T\boldx^*$
+
+    
+%\end{frame}
+
+\begin{frame}
+    \frametitle{Brouwer's Fixed Point Theorem}
+
+    \Fact If $S \subset \RR^K$ is closed, bounded and convex and $T \colon S \to S$ is
+    continuous, then $T$ has at least one fixed point in $S$
+
+    \vspace{1em}
+
+    Proof for case $S = [0, 1]$
+
+    Let 
+    %
+    \begin{itemize}
+        \item $T$ be a continuous function from $[0, 1]$ to $[0, 1]$ 
+        \item $f(x) := x - Tx$
+    \end{itemize}
+
+    \Ex Show that $f$ is continuous on $[0, 1]$ and $f(0) \leq 0 \leq f(1)$
+
+    Result now follows from the Intermediate Value Theorem
+
+    \vspace{1em}
+
+    General proof: Quite long, omitted
+
+\end{frame}
+
+
+
+\begin{frame}
+    
+    \begin{figure}
+       \begin{center}
+        \scalebox{.4}{\includegraphics{fps2.pdf}}
+        \caption{Brouwer fixed point theorem in one dimension}
+       \end{center}
+    \end{figure}
+
+\end{frame}
+
+
+
+
+\begin{frame}
+    
+    \begin{figure}
+       \begin{center}
+        \scalebox{.4}{\includegraphics{no_fps2.pdf}}
+        \caption{When continuity fails the theorem does not apply}
+       \end{center}
+    \end{figure}
+
+\end{frame}
+
+
+
+\section{Contractions}
+
+
+
+\begin{frame}
+    \frametitle{Contractions}
+
+    Like the Intermediate Value Theorem, Brouwer's fixed point theorem can
+    give us existence
+    
+    But do we have uniqueness?
+
+    Uniqueness is important in practice
+
+        \begin{itemize}
+            \item ``My model predicts this..."
+                \begin{itemize}
+                    \item or this...
+                        \begin{itemize}
+                            \item or this...
+                        \end{itemize}
+                \end{itemize}
+        \end{itemize}
+
+    Also important is finding that fixed point 
+
+    Let's look at a method that makes strong assumptions but gives us
+    uniqueness and a way to find the fixed point
+    
+\end{frame}
+
+
+\begin{frame}
+    
+    Let $S \subset \RR^K$ and let $T \colon S \to S$
+    
+    \vspace{0.6em}
+
+
+    $T$ is called a \navy{contraction mapping} on $S$ if
+    %
+    $$
+        \exists \; \beta < 1
+        \;\; \st \;\;
+        \| T\boldx - T\boldy \| \leq \beta  \| \boldx - \boldy \|
+        \quad \text{for all} \quad
+        \boldx, \boldy \in S
+    $$
+
+    \vspace{0.6em}
+
+    
+    \begin{figure}
+       \begin{center}
+        \scalebox{.35}{\input{contracting.pdf_t}}
+       \end{center}
+    \end{figure}
+
+\end{frame}
+
+
+\begin{frame}
+    
+    \Eg Let $T \colon \RR \to \RR$ be defined by
+    %
+    \begin{equation*}
+        Tx = a x + b   
+    \end{equation*}
+    %
+    where $a$ and $b$ are parameters
+    
+    For any $x, y \in \RR$ we have
+    %
+    \begin{align*}
+    | Tx - Ty | 
+        & = |ax + b - ay - b|
+        \\
+        & = |ax - ay|
+        \\
+        & = |a(x - y)|
+        \\
+        & = |a| |x - y|
+    \end{align*}
+
+    Hence $|a| < 1 \, \implies$ $T$ is a contraction mapping on $\RR$ 
+
+\end{frame}
+
+
+\begin{frame}
+
+    
+    \Fact If $T$ is a contraction mapping on $S$ then $T$ is continuous on $S$
+
+    \vspace{1em}
+
+    Proof: Pick 
+    %
+    \begin{itemize}
+        \item any $\boldx \in S$ 
+            \vspace{0.5em}
+        \item any sequence $\{\boldx_n\}$ with $\boldx_n \to \boldx$
+    \end{itemize}
+    
+    Since $T$ is a contraction on $S$, we can find a $\beta < 1$ with
+    %
+    \begin{equation*}
+        \| T \boldx_n - T \boldx \| \leq \beta \| \boldx_n - \boldx \| 
+        \quad \forall \, n \in \NN
+    \end{equation*}
+    % 
+    \vspace{-1em}
+
+    Since $\| \boldx_n - \boldx \| \to 0$ we see that 
+        $\| T \boldx_n - T \boldx \| \to 0$
+
+    \vspace{0.8em}
+    Hence $T \boldx_n \to T \boldx$, and $T$ is continuous as claimed
+
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Banach Contraction Mapping Theorem}
+    
+    \vspace{0.8em}
+
+    \Fact If $S$ is closed and $T$ is a contraction mapping on $S$ then
+    %
+    \begin{enumerate}
+        \item $T$ has a unique fixed point $\bar \boldx \in S$
+            \vspace{0.5em}
+        \item $T^n \boldx \to \bar \boldx$ as $n \to \infty$ for any $\boldx
+            \in S$
+    \end{enumerate}
+
+    \vspace{0.5em}
+
+
+    Proof of uniqueness:  Suppose that $\boldx, \boldy \in S$ 
+    with
+    %
+    \begin{equation*}
+        T \boldx = \boldx
+        \quad \text{and} \quad
+        T \boldy = \boldy
+    \end{equation*}
+    %
+    Then
+    %
+    $$
+    \| \boldx - \boldy \|
+    = \| T \boldx - T \boldy \|
+    \leq \beta \| \boldx - \boldy \|
+    $$
+    
+    \vspace{0.3em}
+
+    Since $\beta < 1$, it must be that
+    $\| \boldx - \boldy \| = 0$, and hence $\boldx = \boldy$
+
+
+\end{frame}
+
+
+\begin{frame}
+
+    Sketch of existence proof: Fix $\boldx \in S$ and let
+    %
+    \begin{equation*}
+        d :=  \| T\boldx - \boldx \|
+    \end{equation*}
+
+    It can be shown that
+    $\| T^{n+1} \boldx - T^n \boldx \| \leq \beta^n d$
+    for all $n$
+    
+    \vspace{-0.0em}
+    %
+    \begin{figure}
+       \begin{center}
+        \scalebox{.8}{\input{../tikzfigs/banach.tex}}
+       \end{center}
+    \end{figure}
+
+
+    One can then show that $\{\boldx_n\} := \{T^n \boldx\}$ is Cauchy
+
+    The Cauchy property implies convergence to some $\bar \boldx \in S$
+
+    It can then be shown that $\bar \boldx$ is a fixed point
+
+\end{frame}
+
+
+\begin{frame}
+    
+    By the way, why does $S$ need to be closed?
+
+    An example of failure when $S$ is not closed:
+    %
+    \begin{equation*}
+        Tx = x/2
+        \quad \text{and} \quad
+        S = (0, \infty)
+    \end{equation*}
+
+
+    \begin{figure}
+       \begin{center}
+        \scalebox{.32}{\includegraphics{no_fp.pdf}}
+       \end{center}
+    \end{figure}
+    
+
+\end{frame}
+
+
+
+\begin{frame}
+    
+    \Eg Recall: If 
+    $\boldb \in \RR^N$ and $\boldA$ is $N \times N$ with $\| \boldA \| < 1$ 
+    then $\boldx = \boldA \boldx + \boldb$ has a unique solution 
+
+    \begin{itemize}
+        \item this is part of the Neumann series lemma
+    \end{itemize}
+
+
+    One proof: Define $T \colon \RR^N \to \RR^N$ by  $T\boldx = \boldA \boldx + \boldb$
+
+    A fixed point of $T$ $\iff$ a solution of $\boldx = \boldA \boldx + \boldb$
+
+    For any $\boldx$ and $\boldy$ in $\RR^N$ we have 
+    %
+    \begin{align*}
+        \| T\boldx - T \boldy \|
+            & = \| \boldA \boldx - \boldA \boldy \|
+            \\
+            & = \| \boldA (\boldx - \boldy) \|
+            \\
+            & \leq \| \boldA \| \| \boldx - \boldy \|
+    \end{align*}
+
+    A contraction on $\RR^N$ with $\beta := \| \boldA \|$
+
+
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Comments on Iteration}
+
+    Suppose that 
+    %
+    \begin{itemize}
+        \item $T$ is a contraction mapping on closed set $S$
+        \item $\bar \boldx$ is the unique fixed point
+    \end{itemize}
+
+    We know that for any $\boldx \in S$ we have $T^n \boldx \to \bar \boldx$
+
+    This means that we can compute the fixed point ``iteratively"
+
+    \begin{enumerate}
+        \item Pick any $\boldx \in S$
+        \item Let $\boldy = T \boldx$
+        \item Set $\boldx = \boldy$ and go to step 2
+    \end{enumerate}
+
+    This generates the sequence $\boldx, T\boldx, T^2 \boldx, \ldots$
+
+\end{frame}
+
+
+\frametitle{Job Search}
+
+\begin{frame}
+    \frametitle{Application: Job Search Again}
+
+    Let's apply these ideas to solving the the McCall job search model
+
+    We seek a $\bar w$ that solves the reservation wage equation
+    %
+    \begin{equation}
+        \label{eq:wbar2}
+        \tag{$\star$}
+        \bar w
+        = c (1 - \beta) + \beta \sum_{k=1}^K \max \left\{ w_k,\, \bar w \right\}
+        \, p_k
+    \end{equation}
+    %
+
+    Here $c > 0$, $\beta \in (0, 1)$ and $p_1, \ldots, p_K$ is a pmf
+
+    \vspace{0.5em}
+
+    Note that $\bar w$ solves \eqref{eq:wbar2} if and only if it is a fixed
+    point of 
+    %
+    \begin{equation*}
+        T x
+        = c (1 - \beta) 
+            + \beta \sum_{k=1}^K \max \left\{ w_k,\, x \right\} \, p_k
+    \end{equation*}
+    %
+
+    \Ex Check it
+
+\end{frame}
+
+
+
+\begin{frame}
+    
+    Claim: The operator $T$ defined by 
+    %
+    \begin{equation*}
+        T x
+        = c (1 - \beta) 
+            + \beta \sum_{k=1}^K \max \left\{ w_k,\, x \right\} \, p_k
+    \end{equation*}
+    %
+    is a contraction mapping on $S := [0, \infty)$ 
+    
+    \vspace{0.5em}
+
+    To check this we'll use two facts:
+
+
+    \Fact If $x_1, \ldots, x_K$ are any $K$ numbers, then
+        $\left| \sum_{k=1}^K x_k \right| \leq \sum_{k=1}^K |x_k|$
+
+
+    \begin{itemize}
+        \item Any extension of the triangle inequality to $K$ numbers
+    \end{itemize}
+
+    \vspace{0.5em}
+
+    \Fact For any $a, x, y$ in $\RR$, 
+    %
+        $\left| 
+            \max \left\{ a,\, x \right\} - \max \left\{ a,\, y \right\} 
+        \right|
+        \leq | x - y |$
+
+
+    \begin{itemize}
+        \item Draw a picture, check the different possibilities
+    \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+
+
+    Proof: For any $x, y \in S$, we have
+    %
+    \begin{align*}
+        | T x - Ty |
+        & = \left| 
+            \beta
+            \sum_{k=1}^K \max \left\{ w_k,\, x \right\} p_k
+            - \beta \sum_{k=1}^K \max \left\{ w_k,\, y \right\} p_k
+        \right|
+        \\
+        & = \beta 
+            \left| 
+                \sum_{k=1}^K 
+                    \left[ 
+                    \max \left\{ w_k,\, x \right\} - \max \left\{ w_k,\, y \right\} 
+                    \right]
+            \, p_k
+            \right|
+        \\
+        & \leq \beta 
+                \sum_{k=1}^K 
+                \left| 
+                    \max \left\{ w_k,\, x \right\} - \max \left\{ w_k,\, y \right\} 
+                \right|
+            \, p_k
+        \\
+        & \leq \beta \sum_{k=1}^K |x - y| \, p_k =  \beta  |x - y| 
+    \end{align*}
+    %
+    
+    Since $\beta < 1$, we see that $T$ is indeed a contraction on $S$
+
+\end{frame}
+
+
+
+
+
+\section{Equivalent Norms}
+
+
+\begin{frame}
+    \frametitle{Equivalent Norms}
+
+    Recall that $\| \boldx - \boldy \|$ is a measure of ``distance" between
+    $\boldx$ and $\boldy$
+
+    \begin{itemize}
+        \item called the \navy{Euclidean distance} between $\boldx$ and $\boldy$
+    \end{itemize}
+
+    There are other notions of distance that are also useful
+
+    This leads us to introduce the family of \navy{$p$-norms}
+    %
+    $$
+        \| \boldx \|_p
+            := 
+            \left( \sum_{k=1}^K |x_k|^p \right)^{1/p}  
+            \quad \text{ if } \quad 
+            1 \leq p < \infty
+    $$
+    %
+    and
+    %
+    $$
+        \| \boldx \|_{\infty} 
+            :=
+            \max_{1 \leq k \leq K} |x_k|  
+    $$
+
+    If $p=2$ then this is the Euclidean norm
+
+\end{frame}
+
+
+
+
+\begin{frame}
+
+    Let $p \in [1,\infty]$ and let $\{\boldx_n\}$ be a sequence in $\RR^K$
+
+    We say that $\boldx_n \to \boldx$ in $p$-norm if 
+    %
+    \begin{equation*}
+        \| \boldx_n - \boldx \|_p \to 0
+        \quad \text{as} \quad
+        n \to \infty
+    \end{equation*}
+
+    If $p=2$ this is ordinary Euclidean convergence
+
+    The next fact generalizes an earlier result about Euclidean distance
+
+    \Fact A sequence in $\RR^K$ converges in $p$-norm $\iff$ each component sequence converges in $\RR$ 
+
+    \vspace{0.5em}
+
+    That is, for any $p \in [1, \infty]$ and sequence $\{\boldx_n\}$ we have
+    %
+    \begin{equation*}
+        \| \boldx_n - \boldx \|_p \to 0
+        \quad \iff \quad
+        | \bolde_k' \boldx_n -  \bolde_k'\boldx | \to 0
+        \text{ in $\RR$ for all } k
+    \end{equation*}
+
+\end{frame}
+
+
+
+\begin{frame}
+
+    We give the proof for $p < \infty$ and leave $p = \infty$ as an \Ex
+
+    Proof: 
+    
+    ($\implies$) Suppose first that $\| \boldx_n - \boldx \|_p \to 0$
+
+    Then, fixing any $k$ in $1, \ldots, K$, we have 
+    $$
+        |\bolde_k' \boldx_n - \bolde_k ' \boldx| 
+        = |x_n^k - x^k| 
+        \leq \| \boldx_n - \boldx \|_p \to 0
+    $$
+    
+    \Ex Confirm the inequality in the last expression
+
+    ($\impliedby$) Suppose instead that $|x_n^k - x^k| \to 0$ for all $k$
+
+    Then $|x_n^k - x^k|^p \to 0$ for all $k$ by continuity of $g(x) = x^p$
+
+    $$
+    \fore
+     z_n := |x_n^1 - x^1|^p + \cdots + |x_n^K - x^K|^p \to 0
+    $$
+    $$
+    \fore
+        \| \boldx_n - \boldx \|_p = z_n^{1/p} \to 0
+    $$
+
+
+\end{frame}
+
+
+\begin{frame}
+
+    There is an important implication of this result
+
+    \vspace{0.8em}
+
+    \Fact For any $p \in [1, \infty]$ and any sequence $\{\boldx_n\}$,
+    %
+    \begin{equation*}
+        \boldx_n \to \boldx \text{ in $p$-norm }
+        \; \iff \;
+        \boldx_n \to \boldx \text{ in Euclidean norm }
+    \end{equation*}
+    
+    \vspace{0.8em}
+
+    Proof:  Fix $p \in [1, \infty]$ and sequence $\{\boldx_n\}$
+
+    We have
+    %
+    \begin{align*}
+        \boldx_n \to \boldx \text{ in $p$-norm }
+        & \iff \text{ every component sequence converges}
+        \\
+        & \iff \boldx_n \to \boldx \text{ in Euclidean norm }
+    \end{align*}
+
+
+\end{frame}
+
+
+\begin{frame}
+    
+    Here's a nice example of why $p$-norms are important
+
+    \Fact The conclusions of the Banach contraction mapping theorem continue
+    to hold if $T$ is a contraction with respect to any $p$-norm
+
+    Thus, if $S$ is closed and there exists a $p \in [1, \infty]$ and $\beta < 1$ with
+    %
+    $$
+        \| T\boldx - T\boldy \|_p \leq \beta  \| \boldx - \boldy \|_p
+    $$
+    %
+    for all $\boldx, \boldy \in S$, then 
+    %
+    \begin{enumerate}
+        \item $T$ has a unique fixed point $\bar \boldx \in S$
+            \vspace{0.5em}
+        \item $T^n \boldx \to \bar \boldx$ as $n \to \infty$ for any $\boldx
+            \in S$
+    \end{enumerate}
+
+    \vspace{1em}
+
+    Implication: When we try to show the contraction property, we can pick the
+    most convenient $p$ to work with
+
+\end{frame}
+
+
+
+
+
+\section{A Planning Problem}
+
+\begin{frame}
+    \frametitle{Application: A Planning Problem}
+
+    A firm 
+    %
+    \begin{itemize}
+        \item owns stock $s_t$ of a natural resouce (e.g., oil)
+        \item supplies $q_t$ at time $t$ and gets current profit $\pi(q_t)$
+    \end{itemize}
+
+    \vspace{0.5em}
+    
+    \begin{figure}
+       \begin{center}
+        \scalebox{.35}{\input{supply.pdf_t}}
+       \end{center}
+    \end{figure}
+
+    \begin{itemize}
+        \item stock next period is $s_{t+1} = s_t - q_t$
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+    Suppose that $t=0$, current stock is $s_0$
+    
+    Given supply sequence $\{q_t\}_{t=0}^{\infty}$, net present value of profits flow is
+    %
+    $$
+        \text{NPV} =
+        \sum_{t=0}^{\infty} \beta^t \pi(q_t)
+        \quad \text{where} \quad
+        \beta := \frac{1}{1 + r}
+    $$
+
+    Assume the resource is nonrenewable, so 
+    %
+    $$
+    \text{sequence } \{q_t\} \text{ feasible} 
+    \quad \iff \quad
+    \sum_{t=0}^{\infty} q_t \leq s_0
+    $$
+
+    Suppose that
+    %
+    \begin{itemize}
+        \item $s_t$ and $q_t$ take integer values
+        \item $\pi(q) = q^{\alpha}$ for some $\alpha \in (0, 1)$
+    \end{itemize}
+    
+
+\end{frame}
+
+
+\begin{frame}
+
+    \begin{figure}
+       \begin{center}
+           \scalebox{.34}{\includegraphics{npv_qs.pdf}}
+           \caption{Present value of different $\{q_t\}$ sequences
+               ($\alpha=0.5$, $r=0.05$)}
+       \end{center}
+    \end{figure}
+    
+\end{frame}
+
+
+
+\begin{frame}
+    
+    Assume that the firm chooses $\{q_t\}$ to maximize NPV
+
+    \vspace{0.4em}
+    Let $v^*(s)$ be the NPV corresponding to 
+    %
+    \begin{itemize}
+        \item current stock $s_0$ equal to $s$
+    \vspace{0.4em}
+        \item an optimal supply sequence choice given $s = s_0$
+    \end{itemize}
+
+    $$
+    v^*(s) = \sup
+        \left\{ \sum_{t=0}^{\infty} \beta^t \pi(q_t)
+            \,:\,
+            \sum_{t=0}^{\infty} q_t \leq s
+        \right\}
+    $$
+
+    \vspace{0.4em}
+    Thus $v^*(s)$ is the ``market value of the firm with current stock $s$"
+
+    \vspace{0.4em}
+    How to compute $v^*(s)$ for all $s \leq N =: $ some max level of stock?
+
+\end{frame}
+
+
+\begin{frame}
+
+    It turns out that $v^*$ satisfies the equation
+    
+    $$
+        v^*(s) = \max_{0 \leq q \leq s} 
+    \left\{
+        \pi(q) + \beta v^*(s - q)
+    \right\}
+        \qquad (s = 0, \ldots, N)
+    $$
+
+    Intuition: Max value attained if current $q$ chosen to trade off
+    %
+    \begin{itemize}
+        \item current profits $\pi(q)$
+        \item depletion of stock to $s - q$ weighted by future value
+    \end{itemize}
+
+    Proof: Omitted --- see Bellman's principle of optimality
+
+    More intuition / examples of these kinds of recursions coming later
+
+    Remark: We're restricting $q$ to be an integer for simplicity
+
+
+\end{frame}
+
+
+\begin{frame}
+    
+
+    Let $\boldv = (v(0), \ldots, v(N))$ be any vector in $\RR^{N+1}$
+    
+    \vspace{0.8em}
+
+    Consider creating a new vector $\hat \boldv \in \RR^{N+1}$ from $\boldv$
+    via
+
+    $$
+        \hat v(s) = \max_{0 \leq q \leq s} 
+        \left\{
+            \pi(q) + \beta v(s - q)
+        \right\}
+        \qquad (s = 0, \ldots, N)
+    $$
+
+    \vspace{1em}
+
+    \begin{itemize}
+        \item $\hat v(0) =  
+            \max_{0 \leq q \leq 0} \{ \pi(q) + \beta v(0 - q) \} = \pi(0) + \beta v(0)$
+            \vspace{0.6em}
+        \item $\hat v(1) =  
+            \max_{0 \leq q \leq 1} \{ \pi(q) + \beta v(1 - q) \} = \cdots$
+            \vspace{0.6em}
+        \item $\cdots$
+    \end{itemize}
+
+
+\end{frame}
+
+
+
+
+\begin{frame}
+
+    \begin{figure}
+       \begin{center}
+           \scalebox{.34}{\includegraphics{npv_vtovhat.pdf}}
+           \caption{Creating $\hat \boldv$ from given $\boldv$}
+       \end{center}
+    \end{figure}
+    
+\end{frame}
+
+
+\begin{frame}
+
+    We've specified a rule that creates a new vector $\hat \boldv$ from any
+    existing vector $\boldv$
+    
+    \vspace{0.6em}
+
+    We can think of this operation $\boldv \mapsto \hat \boldv$ as a mapping 
+    
+    \vspace{1em}
+    Let $T$ be the mapping defined in this way 
+    
+    \vspace{0.6em}
+    That is, $\hat \boldv = T \boldv$ where
+
+    $$
+        Tv(s) = \max_{0 \leq q \leq s} 
+        \left\{
+            \pi(q) + \beta v(s - q)
+        \right\}
+        \qquad (s = 0, 1, \ldots, N)
+    $$
+
+    \vspace{1em}
+    $T$ is a well-defined mapping from $\RR^{N+1} \to \RR^{N+1}$
+
+
+\end{frame}
+
+
+\begin{frame}
+
+    Recall that 
+    $$
+        v^*(s) = \max_{0 \leq q \leq s} 
+    \left\{
+        \pi(q) + \beta v^*(s - q)
+    \right\}
+    $$
+
+    and that $T \colon \RR^{N+1} \to \RR^{N+1}$ maps $\boldv$ to $\hat \boldv$ by
+
+    $$
+        Tv(s) = 
+        \max_{0 \leq q \leq s} 
+        \left\{
+            \pi(q) + \beta v(s - q)
+        \right\}
+    $$
+    
+    It follows that
+    %
+    \begin{equation*}
+        Tv^*(s) 
+        =
+            \max_{0 \leq q \leq s} 
+            \left\{
+                \pi(q) + \beta v^*(s - q)
+            \right\}
+        = v^*(s)
+    \end{equation*}
+
+    That is, $T \boldv^* = \boldv^*$
+
+    Thus, solving for $\boldv^*$ is the same as finding a fixed point of $T$
+
+\end{frame}
+
+
+\begin{frame}
+    Claim: $T$ is a contraction on $\RR^{N+1}$ with $p$-norm $\| \cdot \|_{\infty}$
+
+    Proof: Pick any $\boldv$, $\boldw$ in $\RR^{N+1}$ and any $s$ in $0, 1, \ldots, N$
+
+    By definition, 
+    \vspace{-1em}
+    %
+    \begin{multline*}
+        |Tv(s) - Tw(s)|
+        = 
+        \\
+        \left|
+        \max_{0 \leq q \leq s} 
+        \left\{
+            \pi(q) + \beta v(s - q)
+        \right\}
+        - \max_{0 \leq q \leq s} 
+        \left\{
+            \pi(q) + \beta w(s - q)
+        \right\}
+        \right|
+    \end{multline*}
+
+    Recall now the rule 
+    $$
+        |\sup_{x \in A} f(x) - \sup_{x \in A} g(x)| \leq \sup_{x \in A} |f(x) -  g(x)|
+    $$
+
+\end{frame}
+
+
+\begin{frame}
+    
+    Hence
+    %
+    \begin{align*}
+        |Tv(s) - Tw(s)|
+        & \leq 
+        \max_{0 \leq q \leq s} 
+        \left|
+            \pi(q) + \beta v(s - q)
+        - 
+            (\pi(q) + \beta w(s - q))
+        \right|
+        \\
+        & =
+        \beta 
+        \max_{0 \leq q \leq s} 
+        \left|
+             v(s - q) -  w(s - q)
+        \right|
+        \\
+        & \leq
+        \beta 
+        \max_{0 \leq u \leq N} 
+        \left|
+             v(u) -  w(u)
+        \right|
+        \\
+        & = 
+        \beta \| \boldv - \boldw \|_{\infty}
+    \end{align*}
+
+    Since the last term is an upper bound on $|Tv(s) - Tw(s)|$, we have
+    %
+    $$
+        \| T\boldv - T\boldw \|_{\infty}
+        \leq \beta \| \boldv - \boldw \|_{\infty}
+    $$
+
+\end{frame}
+
+
+\begin{frame}
+    
+    What we know so far
+
+    \begin{itemize}
+        \item $T$ has a unique fixed point in $\RR^{N+1}$
+            \vspace{0.4em}
+        \item that fixed point is $\boldv^*$, the object we want to compute
+            \vspace{0.4em}
+        \item If $\boldv$ is any point in $\RR^{N+1}$, then $T^k\boldv \to \boldv^*$
+    \end{itemize}
+
+    So let's pick $\boldv$ and iterate with $T$
+
+            \vspace{0.4em}
+    In practice we
+    %
+    \begin{enumerate}
+        \item Iterate until $\| T^k \boldv - T^{k+1} \boldv \|_{\infty} <
+            \epsilon := $ small error tolerance
+            \vspace{0.4em}
+        \item Take the final $T^k \boldv$ as approximate solution for
+            $\boldv^*$
+    \end{enumerate}
+
+
+
+\end{frame}
+
+
+\begin{frame}
+
+    \begin{figure}
+       \begin{center}
+           \scalebox{.42}{\includegraphics{npv_iterates.pdf}}
+           \caption{The sequence $\boldv, T \boldv, T^2 \boldv, \ldots$ and limit}
+       \end{center}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}
+
+    \begin{figure}
+       \begin{center}
+           \scalebox{.42}{\includegraphics{npv_iterates2.pdf}}
+           \caption{Iterates with alternative initial condition}
+       \end{center}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}
+    
+    \frametitle{Comparative Statics}
+
+            \vspace{0.4em}
+    Next we usually look at the properties of the solution
+
+            \vspace{0.4em}
+    \Eg How is the value of the firm affected by $r$?
+
+            \vspace{0.4em}
+    Intuitively, higher interest rate decreases net present value
+
+    \vspace{0.4em}
+    Let's 
+    
+    \begin{itemize}
+        \item compute approximate $\boldv^*$ associated with different $r$
+            \vspace{0.4em}
+        \item see whether they do go down as $r$ goes up
+    \end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}
+
+    \begin{figure}
+       \begin{center}
+           \scalebox{.42}{\includegraphics{npval_plotv.pdf}}
+           \caption{The vector $\boldv^*$ computed at different values of $r$}
+       \end{center}
+    \end{figure}
+    
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+\end{document}
+

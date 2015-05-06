@@ -7,6 +7,17 @@ Australian National University, First Semester 2015
 
 ## Announcements
 
+
+### Final Exam Details (Posted 13-04-2015) 
+
+The final exam details are now out.
+
+* Date: June 11th
+* Reading commences: 14:15
+* Writing commences: 14:30
+* Exam ends: 17:30
+
+
 ### Midterm Results and Solutions (Posted 29-04-2015) 
 
 The midterm results are up on Wattle.  Marks are out of 100.  As discussed in
@@ -21,28 +32,6 @@ Note that the solutions are only indicative --- there are usually many ways to
 tackle these problems.  In particular, any correct approach was treated as
 acceptable as long as it followed the guidelines set out at the top of the
 exam paper.  The same principle will apply to the final.
-
-
-
-
-### Week 8 Thursday Lecture to be Shifted (Posted 20-04-2015) 
-
-Hi all, with apologies for late notice, I've now decided to shift the
-Thursday 23rd April lecture to the next day, Friday 24th, 10am.  This is to
-let you concentrate on last minute revision for the midterm exam (on Thursday
-evening).  The location of the lecture is unchanged.
-
-
-
-### Week 8 Lectures (Posted 13-04-2015) 
-
-Week 8 lectures (22nd and 23rd April) will proceed as normal despite the
-midterm exam.  The material discussed in those lectures will not be assessable
-in the midterm.  In addition, the material from the lecture 14 PDF on convergence
-in distribution and the Central Limit Theorem (p. 38 onwards) was not actually
-covered in the lecture because of time constraints, and as such is
-*not* considered assessable in the midterm.  It will be transferred to lecture
-15.
 
 
 ### Midterm Details (Posted 13-04-2015) 
@@ -87,6 +76,7 @@ As discussed in the lectures, the midterm exam details are as follows:
 * [Lecture 17](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_17.pdf?raw=true) 
 * [Lecture 18](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_18.pdf?raw=true) 
 * [Lecture 19](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_19.pdf?raw=true) 
+* [Lecture 20](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_20.pdf?raw=true) 
 
 
 
