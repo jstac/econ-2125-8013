@@ -77,6 +77,7 @@ As discussed in the lectures, the midterm exam details are as follows:
 * [Lecture 18](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_18.pdf?raw=true) 
 * [Lecture 19](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_19.pdf?raw=true) 
 * [Lecture 20](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_20.pdf?raw=true) 
+* [Lecture 21](https://github.com/jstac/econ-2125-8013/blob/master/PDFs/lecture_21.pdf?raw=true) 
 
 
 
