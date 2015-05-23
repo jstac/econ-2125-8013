@@ -98,6 +98,7 @@ As discussed in the lectures, the midterm exam details are as follows:
 * [Tutorial for week 11](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON2125_4021_8013TQ10.pdf?raw=true)
 * [Tutorial for week 12](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON2125_4021_8013TQ11.pdf?raw=true)
 * [Tutorial for week 13](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON2125_4021_8013TQ12.pdf?raw=true)
+* [Tutorial for week 13 - additional](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/ECON2125_4021_8013TQ13.pdf?raw=true)
 
 ### Practice Questions
 
