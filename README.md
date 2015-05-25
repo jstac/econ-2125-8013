@@ -7,6 +7,11 @@ Australian National University, First Semester 2015
 
 ## Announcements
 
+### Last set of solved exercises is up (Posted 26-05-2015) 
+
+See below for practice question set 3.
+
+
 
 ### Final Exam Details (Posted 13-04-2015) 
 
@@ -106,6 +111,9 @@ As discussed in the lectures, the midterm exam details are as follows:
 
 * [Set 2](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/practice_qs_2.pdf?raw=true)
 * [Set 2 solutions](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/practice_qs_2_solutions.pdf?raw=true)
+
+
+* [Set 3](http://github.com/jstac/econ-2125-8013/blob/master/PDFs/practice_qs_3.pdf?raw=true) (Solutions in the same file)
 
 ## Links
 
